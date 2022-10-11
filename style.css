@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+}
+
+.submission-form {
+    background-color: lightblue;
+    max-width: 500px;
+    margin: 2rem auto;
+    border: 2px solid green;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: 0;
+    padding: .5rem;
+    margin: 1rem;
+    width: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: lightgreen;
+    color: black;
+}
+
+label {
+    display: block;
+    padding: 1rem 0 .5rem;
+    font-weight: bold;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
