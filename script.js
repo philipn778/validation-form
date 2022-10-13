@@ -10,22 +10,22 @@ form.addEventListener('submit', (e) => {
         messages.push('Name is required');
         console.log('Name is required');
     } else {
-        console.log('Success');
+        console.log('Success.');
     }
 
     if (email.value === '' || email.value == null) {
         messages.push('Email is required');
         console.log('Email is required');
     } else {
-        console.log('Success');
+        console.log('Success.');
     }
 
     if (password.value.length <= 6) {
         messages.push('Password must be longer than 6 characters');
         console.log('Password must be longer than 6 characters');
     } else {
-        console.log('Success');
-        messages.push('Succesfully logged in, welcome!')
+        console.log('Success. ', name.value, email.value, password.value);
+        messages.push(name.value, email.value, password.value);
     }
 
     if (messages.length > 0) {
